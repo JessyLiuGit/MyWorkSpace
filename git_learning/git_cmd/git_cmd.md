@@ -37,7 +37,10 @@
 		Checking connectivity... done.
 # 检查当前文件状态
 - git status
-
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git status
+		On branch master
+		Your branch is up-to-date with 'origin/master'.
+		nothing to commit, working directory clean
 
 
 
