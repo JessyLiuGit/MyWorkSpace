@@ -98,4 +98,32 @@
 
 - git status(目录中存在修改但是已经跟踪的文件)
 
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git status
+		On branch master
+		Your branch is up-to-date with 'origin/master'.
+		Changes to be committed:
+		  (use "git reset HEAD <file>..." to unstage)
+
+			modified:   git_learning/git_cmd/git_cmd.md
+
+- git status(目录中存在已经提交但是没有push到远端的文件)
+
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git status
+		On branch master
+		Your branch is ahead of 'origin/master' by 1 commit.
+		  (use "git push" to publish your local commits)
+		nothing to commit, working directory clean
+
+# 暂存已修改的文件
+
+- 将某个文件单独加入暂存区
+
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git add git_learning/git_cmd/git_cmd.md
+
+- 将所有文件同时加入暂存区
+
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git add -A
+
+
+
 
