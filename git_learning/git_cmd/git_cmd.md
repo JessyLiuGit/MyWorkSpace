@@ -54,11 +54,29 @@
 
 # 检查当前文件状态
 
-- git status
+- git status(目录无任何新增内容)
+
 		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git status
 		On branch master
 		Your branch is up-to-date with 'origin/master'.
 		nothing to commit, working directory clean
 
+- git status(目录中存在新增未跟踪的文件)
+
+		jessy@jessy-linux:~/my_git_workspace/MyWorkSpace$ git status
+		On branch master
+		Your branch is up-to-date with 'origin/master'.
+		Changes not staged for commit:
+		  (use "git add <file>..." to update what will be committed)
+		  (use "git checkout -- <file>..." to discard changes in working directory)
+
+			modified:   git_learning/git_cmd/git_cmd.md
+
+		Untracked files:
+		  (use "git add <file>..." to include in what will be committed)
+
+			markdown/md_syntax/
+
+		no changes added to commit (use "git add" and/or "git commit -a")
 
 
