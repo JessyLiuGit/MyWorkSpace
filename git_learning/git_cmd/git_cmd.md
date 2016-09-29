@@ -52,6 +52,11 @@
 		Receiving objects: 100% (24/24), done.
 		Checking connectivity... done.
 
+# 查看Git版本号
+
+		linux-omlu:/home/g00221245/br_V8R9C00_CarryingService # git --version
+		git version 2.1.3
+
 # 检查当前文件状态
 
 - git status(目录无任何新增内容)
